@@ -14,12 +14,9 @@ author-img: david-freeman.jpg # add your photo
 about-author: //make a bio  # add description
 social-twitter: everlon.passos # add your Twitter handle
 social-facebook: # add your Facebook handle
-social-github: artemsheludko # add your Github handle
+social-github:  # add your Github handle
 social-linkedin: # add your Linkedin handle
 social-email: dev@everlon.com.br # add your Email address
-
-# Disqus
-discus-identifier: mr-brown # add your discus identifier
 
 # Tracker
 analytics: # Google Analytics
