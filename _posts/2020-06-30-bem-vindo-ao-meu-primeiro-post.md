@@ -3,10 +3,20 @@ layout: post
 title: "Bem-vindo ao meu pequeno Blog!"
 date: 2020-06-30 19:53:08 +0300
 description: # Add post description (optional)
-img:  # Add image post (optional)
+img: workflow.jpg # Add image post (optional)
 ---
 Estou fazendo meu primeiro blog depois depois de tanto postergar. Não será nada especial, somente algumas coisas que 
-gostaria de anotar para não esquecer.
+gostaria de anotar e coisas que gostaria de compartilhar com você.
+
+Este blog será feito totalmente em TERMINAL, com exceção das imagens é claro, que serão tratadas no GIMP.
+
+Estou usando um Macbook Pro com OSX Yosemite (10.10) e iTerm2. Para editar os posts, que serão em Markdown, usarei o
+VIM 8.2, que tentarei colocar bastante conteúdo neste Blog sobre ele, pois é maravilhoso programar nele.
+
+Sou programador PHP e curioso nas demais linguagens, então estou sempre testando e vendo como é o funcionamento das
+coisas (Sempre fui assim, abria meus brinquedos para ver como era dentro 😝)
+
+Meus contatos estão aqui do lado. Fique à vontade para falar comigo.
 
 Teste de apresentação de código:
 {% highlight php %}
