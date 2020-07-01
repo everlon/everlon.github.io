@@ -2,7 +2,7 @@
 layout: post
 title: "Bem-vindo ao meu pequeno Blog!"
 date: 2020-06-30 19:53:08 +0300
-description: # Add post description (optional)
+description: "Apresentação" # Add post description (optional)
 img: workflow.jpg # Add image post (optional)
 ---
 Estou fazendo meu primeiro blog depois depois de tanto postergar. Não será nada especial, somente algumas coisas que 
@@ -14,9 +14,31 @@ Estou usando um Macbook Pro com OSX Yosemite (10.10) e iTerm2. Para editar os po
 VIM 8.2, que tentarei colocar bastante conteúdo neste Blog sobre ele, pois é maravilhoso programar nele.
 
 Sou programador PHP e curioso nas demais linguagens, então estou sempre testando e vendo como é o funcionamento das
-coisas (Sempre fui assim, abria meus brinquedos para ver como era dentro 😝)
+coisas (Sempre fui assim, abria meus brinquedos para ver como era dentro :stuck_out_tongue_closed_eyes:)
 
 Meus contatos estão aqui do lado. Fique à vontade para falar comigo.
+
+
+Segue alguns dos links que gosto:
+O querido por muitos e odiados por outros [PHP][php.net]. Gosto dos frameworks, mas vou destacar o [Symfony][symfony] 
+que estou estudando e usando em projeto pessoal, mais especificamente o [Symfony Flex][symfony-flex] para não perder
+o costume do micro-framework [Silex][silex]. Meu queridinho [Twig][twig] para deixar tudo mais organizado e bonito no
+front-end. Por falar em front-end, esta uma tempestade de coisas, não? Vamos aguardar. :satisfied: Tudo organizado com 
+[Git][git] e *codando* com [VIM][vim] e [Sublime Text 3][st3]. Não podemos deixar de mencionar o OS, que como citei
+acima estou no [OSX][osx] 10.10 (não quero atualizar ainda), mas o [OpenBSD][openbsd] esta funcionando aqui em 
+fase de testes.
+
+[php.net]: https://php.net
+[symfony]: https://symfony.com/
+[symfony-flex]: https://flex.symfony.com/
+[twig]: https://twig.symfony.com/
+[silex]: https://silex.symfony.com/ 
+[openbsd]: https://www.openbsd.org/
+[git]: https://github.com/
+[vim]: https://www.vim.org/
+[st3]: https://www.sublimetext.com/
+[osx]: https://www.apple.com/macos/
+
 
 Teste de apresentação de código:
 {% highlight php %}
@@ -29,11 +51,3 @@ switch (true) {
         break;
 }
 {% endhighlight %}
-
----
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
----
