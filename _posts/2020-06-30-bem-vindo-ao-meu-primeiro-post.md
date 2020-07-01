@@ -2,8 +2,9 @@
 layout: post
 title: "Bem-vindo ao meu pequeno Blog!"
 date: 2020-06-30 19:53:08 +0300
-description: "Apresentação" # Add post description (optional)
-img: workflow.jpg # Add image post (optional)
+description: "Apresentação"
+img: workflow.jpg
+tags: [Terminal, Gimp, Macbook Pro, OSX, Yosemite, iTerm2, Vim, PHP, Framework, Micro-Framework, Symfony, Flex, Silex, Twig, Front-End, Git, Sublime Text, OpenBSD]
 ---
 Estou fazendo meu primeiro blog depois de tanto postergar. Não será nada especial, somente algumas coisas que 
 gostaria de anotar e coisas que gostaria de compartilhar com você.
