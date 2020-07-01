@@ -11,11 +11,11 @@ site-twitter: #if your site has a twitter account, enter it here
 # Author Settings
 author: Everlon Passos
 author-img: everlon-passos.jpg
-about-author: //make a bio 
-social-twitter: https://twitter.com/everlon_passos
-social-facebook: https://www.facebook.com/everlon.passos
-social-github: https://github.com/everlon
-social-linkedin: https://linkedin.com/in/everlon/
+about-author: // make a bio
+social-twitter: everlon_passos
+social-facebook: everlon.passos
+social-github: everlon
+social-linkedin: everlon
 social-email: dev@everlon.com.br
 
 # Tracker
