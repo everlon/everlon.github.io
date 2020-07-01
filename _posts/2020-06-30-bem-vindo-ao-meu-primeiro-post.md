@@ -5,12 +5,12 @@ date: 2020-06-30 19:53:08 +0300
 description: "Apresentação" # Add post description (optional)
 img: workflow.jpg # Add image post (optional)
 ---
-Estou fazendo meu primeiro blog depois depois de tanto postergar. Não será nada especial, somente algumas coisas que 
+Estou fazendo meu primeiro blog depois de tanto postergar. Não será nada especial, somente algumas coisas que 
 gostaria de anotar e coisas que gostaria de compartilhar com você.
 
-Este blog será feito totalmente em TERMINAL, com exceção das imagens é claro, que serão tratadas no GIMP.
+Este blog será feito totalmente em TERMINAL, com exceção das imagens é claro, que serão tratadas no [Gimp][gimp].
 
-Estou usando um Macbook Pro com OSX Yosemite (10.10) e iTerm2. Para editar os posts, que serão em Markdown, usarei o
+Estou usando um Macbook Pro com OSX Yosemite (10.10) e [iTerm2][iterm2]. Para editar os posts, que serão em Markdown, usarei o
 VIM 8.2, que tentarei colocar bastante conteúdo neste Blog sobre ele, pois é maravilhoso programar nele.
 
 Sou programador PHP e curioso nas demais linguagens, então estou sempre testando e vendo como é o funcionamento das
@@ -38,7 +38,8 @@ fase de testes.
 [vim]: https://www.vim.org/
 [st3]: https://www.sublimetext.com/
 [osx]: https://www.apple.com/macos/
-
+[gimp]: https://www.gimp.org/
+[iterm2]: https://www.iterm2.com/
 
 Teste de apresentação de código:
 {% highlight php %}
