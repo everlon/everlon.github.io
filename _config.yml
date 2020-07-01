@@ -19,7 +19,7 @@ social-linkedin: # add your Linkedin handle
 social-email: dev@everlon.com.br # add your Email address
 
 # Tracker
-analytics: # Google Analytics
+analytics: UA-67074427-1 # Google Analytics
 
 # Build Settings
 markdown: kramdown
