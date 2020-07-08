@@ -63,35 +63,25 @@ Agora os meus queridinhos são as apresentações com Markdown. Sim! Para você 
 
 ## Finalmente vamos ver como é a Sintáxe básica?
 
-| Elemento | Sintaxe de Markdown |
-| ----------- | ----------- |
-| <h1>Título de nível 1</h1> | \# Título de nível 1 |
-| <h2>Título de nível 2</h2> | \#\# Título de nível 2 |
-| <h3>Título de nível 3</h3> | \#\#\# Título de nível 3 |
-| <h4>Título de nível 4</h4> | \#\#\#\# Título de nível 4 |
-| <h5>Título de nível 5</h5> | \#\#\#\#\# Título de nível 5 |
-| <h6>Título de nível 6</h6> | \#\#\#\#\#\# Título de nível 6 |
-| Eu destaco em **texto em negrito**. | Eu destaco em \*\*texto em negrito\*\*. |
-| Eu destaco em *texto em itálico*. | Eu destaco em \*Texto em itálico\*. |
-
 
 ### Títulos 
 
-# H1
-## H2
-### H3
+# Título nível 1  \# H1
+## Título nível 2 \#\# H2
+### Título nível 3 \#\#\# H3
 
 ### Negrito
 
-**Texto em negrito**
+**Texto em negrito** \*\*Negrito\*\*
 
 ### Itálico
 
-*Texto em itálico*
+*Texto em itálico* \*Itálico\*
 
 ### Bloco de citação
 
 > Pequeno bloco de citação.
+\> Pequeno bloco de citação.
 
 ### Lista ordenada
 
