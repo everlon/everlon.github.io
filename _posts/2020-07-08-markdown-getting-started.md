@@ -3,7 +3,7 @@ layout: post
 title: "Afinal o que é Markdown?"
 date: 2020-07-08 18:01:00 +0300
 description: "Apresentando o Markdown que estou usando para escrever este blog."
-img: dillinger.png
+img: how-to-start.jpg
 tags: [Markdown]
 ---
 
@@ -30,7 +30,7 @@ Você pode usar um editor de texto simples para escrever em formato Markdown ou 
 
 Começar é o melhor meio de usar. Sério! Como é muito fácil de aprender e usar você pode abrir qualquer editor e sair escrevendo. Você pode usar um aplicativo online chamado [Dillinger](https://dillinger.io/) que lhe da a possibilidade de visualizar o que esta escrevendo usando Markdown em tempo real. Quer mais fácil que isso? Escreva do lado esquerdo e veja do lado direito. Deixe este site aberto enquanto lê este Post, assim já poderá testar a sintaxe. Depois você pode salvar com a extensão .md ou .markdown assim como outros formatos.
 
-![Dillinger](dillinger.png)
+![Dillinger](https://everlon.github.io/assets/img/dillinger.png)
 
 
 ### Onde usar?
@@ -65,12 +65,12 @@ Agora os meus queridinhos são as apresentações com Markdown. Sim! Para você 
 
 | Elemento | Sintaxe de Markdown |
 | ----------- | ----------- |
-| # Título de nível 1 | \# Heading level 1 |
-| ## Título de nível 2 | \#\# Heading level 2 |
-| ### Título de nível 3 | \#\#\# Heading level 3 |
-| #### Título de nível 4 | \#\#\#\# Heading level 4 |
-| ##### Título de nível 5 | \#\#\#\#\# Heading level 5 |
-| ###### Título de nível 6 | \#\#\#\#\#\# Heading level 6 |
+| <h1>Título de nível 1</h1> | \# Título de nível 1 |
+| <h2>Título de nível 2</h2> | \#\# Título de nível 2 |
+| <h3>Título de nível 3</h3> | \#\#\# Título de nível 3 |
+| <h4>Título de nível 4</h4> | \#\#\#\# Título de nível 4 |
+| <h5>Título de nível 5</h5> | \#\#\#\#\# Título de nível 5 |
+| <h6>Título de nível 6</h6> | \#\#\#\#\#\# Título de nível 6 |
 | Eu destaco em **texto em negrito**. | Eu destaco em \*\*texto em negrito\*\*. |
 | Eu destaco em *texto em itálico*. | Eu destaco em \*Texto em itálico\*. |
 
