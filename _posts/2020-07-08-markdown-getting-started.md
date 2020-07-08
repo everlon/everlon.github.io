@@ -1,12 +1,11 @@
 ---
-layout:post
+layout: post
 title: "Afinal o que é Markdown?"
 date: 2020-07-08 18:01:00 +0300
 description: "Apresentando o Markdown que estou usando para escrever este blog."
-img: 
+img: dillinger.png
 tags: [Markdown]
 ---
-# Afinal, o que é Markdown?
 
 ## Um guida rápido do que uso em Markdown.
 
