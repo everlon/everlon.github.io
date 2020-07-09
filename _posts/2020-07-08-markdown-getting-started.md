@@ -63,40 +63,75 @@ Agora os meus queridinhos são as apresentações com Markdown. Sim! Para você 
 
 ## Finalmente vamos ver como é a Sintáxe básica?
 
-
-### Títulos 
-
-# Título nível 1  \# H1
-## Título nível 2 \#\# H2
-### Título nível 3 \#\#\# H3
-
 <table class="table table-bordered">
   <thead class="thead-light">
     <tr>
-      <th>Markdown</th>
-      <th>Saída renderizada</th>
+        <th>Markdown</th>
+        <th>Saída renderizada</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td>Texto em **negrito**.</td>
-      <td>Texto em <b>negrito</b></td> 
+        <td># Título nível 1</td>
+        <td><h1>Título nível 1</h1></td>
     </tr>
     <tr>
-      <td>Texto em *itálico*.</td>
-      <td>Texto em <i>itálico</i></td>
+        <td>## Título nível 2</td>
+        <td><h2>Título nível 2</h2></td>
     </tr>
     <tr>
-      <td>Este texto é ***realmente importante***.</td>
-      <td>Este texto é <i><b>realmente importante</b></i>.</td>
+        <td>### Título nível 3</td>
+        <td><h3>Título nível 3</h3></td>
+    </tr>
+    <tr>
+        <td>Texto em **negrito**.</td>
+        <td>Texto em <b>negrito</b></td> 
+    </tr>
+    <tr>
+        <td>Texto em *itálico*.</td>
+        <td>Texto em <i>itálico</i></td>
+    </tr>
+    <tr>
+        <td>Este texto é ***realmente importante***.</td>
+        <td>Este texto é <i><b>realmente importante</b></i>.</td>
+    </tr>
+    <tr>
+        <td>> Pequeno bloco de citação.</td>
+        <td><blockquote>Pequeno bloco de citação.</blockquote></td>
+    </tr>
+    <tr>
+        <td>
+            <b>Lista ordenada</b><br>
+            1. Primeiro item<br>
+            2. Segunda item<br>
+            3. Terceiro item<br>
+        </td>
+        <td>
+            <ol>
+              <li>Primeiro item</li>
+              <li>Segunda item</li>
+              <li>Terceiro item</li>
+            </ol>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b>Lista não ordenada</b><br>
+            - Primeiro item<br>
+            - Segunda item<br>
+            - Terceiro item<br>
+        </td>
+        <td>
+            <ul>
+              <li>Primeiro item</li>
+              <li>Segunda item</li>
+              <li>Terceiro item</li>
+            </ul>
+        </td>
     </tr>
   </tbody>
 </table>
 
-### Bloco de citação
-
-> Pequeno bloco de citação.
-\> Pequeno bloco de citação.
 
 ### Lista ordenada
 
