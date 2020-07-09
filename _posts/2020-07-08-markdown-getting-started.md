@@ -139,7 +139,7 @@ Agora os meus queridinhos são as apresentações com Markdown. Sim! Para você 
     </tr>
     <tr>
         <td><b>Link / Ligação</b><br>[title](https://www.example.com)</td>
-        <td><a href="https://www.example.com">title</a><td>
+        <td><a href="https://www.example.com">title</a></td>
     </tr>
     <tr>
         <td><b>Imagem</b><br>![alt text](image.jpg)</td>
