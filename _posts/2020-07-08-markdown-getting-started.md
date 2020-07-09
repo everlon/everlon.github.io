@@ -63,6 +63,16 @@ Agora os meus queridinhos são as apresentações com Markdown. Sim! Para você 
 
 ## Finalmente vamos ver como é a Sintáxe básica?
 
+### Títulos
+
+# Título nível 1
+## Título nível 2
+### Título nível 3
+
+`# Título nível 1`
+`## Título nível 2`
+`### Título nível 3`
+
 <table class="table table-bordered">
   <thead class="thead-light">
     <tr>
