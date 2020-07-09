@@ -209,7 +209,7 @@ Valor | Valor | Valor
 ```
 #### Saída renderizada:
 Exemplo   | Valor do exemplo
---------- | ------
+:-------- | :-----
 Exemplo 1 | R$ 10
 Exemplo 2 | R$ 8
 Exemplo 3 | R$ 7
@@ -247,3 +247,9 @@ Aqui está uma nota de rodapé simples, [^1] e outra mais longa. [^segunda]
 - [x] Write the press release
 - [ ] Update the website
 - [ ] Contact the media
+
+Espero que tenha gostado desta apresentação básica do Markdown. Posteriormente posso colocar mais alguma coisa sobre ele aqui no blog.
+
+[]'s
+
+---
