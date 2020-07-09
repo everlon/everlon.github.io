@@ -74,6 +74,8 @@ Agora os meus queridinhos são as apresentações com Markdown. Sim! Para você 
 ## Título nível 2
 ### Título nível 3
 
+<br><br>
+
 ### Ênfase
 ```
 **negrito**
@@ -82,10 +84,21 @@ Agora os meus queridinhos são as apresentações com Markdown. Sim! Para você 
 ~~Texto tachado~~
 ```
 #### Saída renderizada:
-**Texto em negrito**
-*Texto em itálico*
-***Texto realmente importante***
+**Texto em negrito**\
+*Texto em itálico*\
+***Texto realmente importante***\
 ~~Texto tachado~~
+
+<br><br>
+
+### Citações
+```
+> Pequeno bloco de citação.
+```
+#### Saída renderezada:
+> Pequeno bloco de citação.
+
+<br><br>
 
 
 
@@ -97,22 +110,6 @@ Agora os meus queridinhos são as apresentações com Markdown. Sim! Para você 
     </tr>
   </thead>
   <tbody>
-    <tr>
-        <td>Texto em **negrito**.</td>
-        <td>Texto em <b>negrito</b></td> 
-    </tr>
-    <tr>
-        <td>Texto em *itálico*.</td>
-        <td>Texto em <i>itálico</i></td>
-    </tr>
-    <tr>
-        <td>Este texto é ***realmente importante***.</td>
-        <td>Este texto é <i><b>realmente importante</b></i>.</td>
-    </tr>
-    <tr>
-        <td>> Pequeno bloco de citação.</td>
-        <td><blockquote>Pequeno bloco de citação.</blockquote></td>
-    </tr>
     <tr>
         <td>
             <b>Lista ordenada</b><br>
