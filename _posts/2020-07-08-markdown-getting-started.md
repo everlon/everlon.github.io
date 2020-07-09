@@ -208,12 +208,12 @@ Alinhado a esquerda | Centralizado | Alinhado a direita
 Valor | Valor | Valor
 ```
 #### Saída renderizada:
-Exemplo   | Valor do exemplo
---------- | ------
-Exemplo 1 | R$ 10
-Exemplo 2 | R$ 8
-Exemplo 3 | R$ 7
-Exemplo 4 | R$ 8
+|Exemplo|Valor do exemplo|
+|---|---|
+|Exemplo 1 | R$ 10|
+|Exemplo 2 | R$ 8|
+|Exemplo 3 | R$ 7|
+|Exemplo 4 | R$ 8|
 
 Alinhado a esquerda | Centralizado | Alinhado a direita
 :--------- | :------: | -------:
@@ -230,6 +230,7 @@ Aqui está uma nota de rodapé simples, [^1] e outra mais longa. [^segunda]
 ```
 #### Saída renderizada:
 Aqui está uma nota de rodapé simples, [^1] e outra mais longa. [^segunda]
+(Veja no final da página as referências)
 
 [^1]: Esta é a primeira nota de rodapé.
 [^segunda]: Adicione quantas frases, paragrafos ou `elementos` **markdown** desejar.
