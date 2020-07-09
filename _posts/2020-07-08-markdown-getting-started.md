@@ -69,11 +69,23 @@ Agora os meus queridinhos são as apresentações com Markdown. Sim! Para você 
 ## Título nível 2
 ### Título nível 3
 ~~~
-
 #### Saída renderizada:
 # Título nível 1
 ## Título nível 2
 ### Título nível 3
+
+### Ênfase
+```
+**negrito**
+*itálico*
+***realmente importante***
+~~Texto tachado~~
+```
+#### Saída renderizada:
+**Texto em negrito**
+*Texto em itálico*
+***Texto realmente importante***
+~~Texto tachado~~
 
 
 
@@ -85,18 +97,6 @@ Agora os meus queridinhos são as apresentações com Markdown. Sim! Para você 
     </tr>
   </thead>
   <tbody>
-    <tr>
-        <td># Título nível 1</td>
-        <td><h1>Título nível 1</h1></td>
-    </tr>
-    <tr>
-        <td>## Título nível 2</td>
-        <td><h2>Título nível 2</h2></td>
-    </tr>
-    <tr>
-        <td>### Título nível 3</td>
-        <td><h3>Título nível 3</h3></td>
-    </tr>
     <tr>
         <td>Texto em **negrito**.</td>
         <td>Texto em <b>negrito</b></td> 
