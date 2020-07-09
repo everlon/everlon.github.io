@@ -70,13 +70,26 @@ Agora os meus queridinhos são as apresentações com Markdown. Sim! Para você 
 ## Título nível 2 \#\# H2
 ### Título nível 3 \#\#\# H3
 
-### Negrito
-
-**Texto em negrito** \*\*Negrito\*\*
-
-### Itálico
-
-*Texto em itálico* \*Itálico\*
+<table class="table table-bordered">
+  <thead class="thead-light">
+    <tr>
+      <th>Markdown</th>
+      <th>Saída renderizada</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="highlighter-rouge">Texto em **negrito**.</code></td>
+      <td><code class="highlighter-rouge">Texto em *itálico*.</code></td>
+      <td><code class="highlighter-rouge">Este texto é ***realmente importante***.</code></td>
+    </tr>
+    <tr>
+      <td>Texto em <b>negrito</b></td> 
+      <td>Texto em <i>itálico</i></td>
+      <td>Este texto é <i><b>realmente importante</b></i>.</td>
+    </tr>
+  </tbody>
+</table>
 
 ### Bloco de citação
 
