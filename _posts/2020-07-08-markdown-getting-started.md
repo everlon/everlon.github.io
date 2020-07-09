@@ -149,20 +149,23 @@ Agora os meus queridinhos são as apresentações com Markdown. Sim! Para você 
 </table>
 
 
+## Exemplo de formatos de código:
 
-### Link / Ligação
+~~~javascript
+alert('Hello World!')
+~~~
 
-[title](https://www.example.com)
+~~~php
+<?php echo "Hello World!"; ?>
+~~~
 
-### Imagem
-
-![alt text](image.jpg)
-
-
-
-
+~~~html
+<h1>Hello World!</h1>
+~~~
 
 
+
+---
 
 ## Extended Syntax
 
