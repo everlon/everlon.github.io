@@ -144,7 +144,7 @@ Agora os meus queridinhos são as apresentações com Markdown. Sim! Para você 
     <tr>
         <td><b>Imagem</b><br>![alt text](image.jpg)</td>
         <td><img src="https://pipz.com/static/images/blog/eddie.png" alt="Eddie"></td>
-    <tr>
+    </tr>
   </tbody>
 </table>
 
