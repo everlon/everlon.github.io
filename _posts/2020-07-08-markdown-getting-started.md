@@ -129,29 +129,26 @@ Agora os meus queridinhos são as apresentações com Markdown. Sim! Para você 
             </ul>
         </td>
     </tr>
+    <tr>
+        <td>`Exemplo de código básico`</td>
+        <td><code class="language-plaintext highlighter-rouge">Exemplo de código básico</code></td>
+    </tr>
+    <tr>
+        <td><b>Linha horizontal</b><br>---</td>
+        <td><hr></td>
+    </tr>
+    <tr>
+        <td><b>Link / Ligação</b><br>[title](https://www.example.com)</td>
+        <td><a href="https://www.example.com">title</a><td>
+    </tr>
+    <tr>
+        <td><b>Imagem</b><br>![alt text](image.jpg)</td>
+        <td><img src="https://pipz.com/static/images/blog/eddie.png" alt="Eddie"></td>
+    <tr>
   </tbody>
 </table>
 
 
-### Lista ordenada
-
-1. Primeiro item
-2. Segunda item
-3. Terceiro item
-
-### Lista não ordenada
-
-- Primeiro item
-- Segundo item
-- Terceiro item
-
-### Códigos
-
-`exemplo de código`
-
-### Linha horizontal
-
----
 
 ### Link / Ligação
 
