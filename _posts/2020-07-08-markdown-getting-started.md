@@ -152,7 +152,7 @@ Agora os meus queridinhos são as apresentações com Markdown. Sim! Para você 
 ## Exemplo de formatos de código:
 
 ~~~javascript
-alert('Hello World!')
+console.log('Hello World!')
 ~~~
 
 ~~~php
@@ -168,8 +168,6 @@ alert('Hello World!')
 ---
 
 ## Extended Syntax
-
-These elements extend the basic syntax by adding additional features. Not all Markdown applications support these elements.
 
 ### Table
 
