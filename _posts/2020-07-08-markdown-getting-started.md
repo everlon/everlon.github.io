@@ -79,13 +79,15 @@ Agora os meus queridinhos são as apresentações com Markdown. Sim! Para você 
   </thead>
   <tbody>
     <tr>
-      <td><code class="highlighter-rouge">Texto em **negrito**.</code></td>
-      <td><code class="highlighter-rouge">Texto em *itálico*.</code></td>
-      <td><code class="highlighter-rouge">Este texto é ***realmente importante***.</code></td>
+      <td>Texto em **negrito**.</td>
+      <td>Texto em <b>negrito</b></td> 
     </tr>
     <tr>
-      <td>Texto em <b>negrito</b></td> 
+      <td>Texto em *itálico*.</td>
       <td>Texto em <i>itálico</i></td>
+    </tr>
+    <tr>
+      <td>Este texto é ***realmente importante***.</td>
       <td>Este texto é <i><b>realmente importante</b></i>.</td>
     </tr>
   </tbody>
