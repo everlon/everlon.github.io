@@ -84,9 +84,9 @@ Agora os meus queridinhos são as apresentações com Markdown. Sim! Para você 
 ~~Texto tachado~~
 ```
 #### Saída renderizada:
-**Texto em negrito**\
-*Texto em itálico*\
-***Texto realmente importante***\
+**Texto em negrito** <br>
+*Texto em itálico* <br>
+***Texto realmente importante*** <br>
 ~~Texto tachado~~
 
 <br><br>
@@ -100,67 +100,38 @@ Agora os meus queridinhos são as apresentações com Markdown. Sim! Para você 
 
 <br><br>
 
+### Listas
+```
+Lista ordenada
+1. Primeiro item
+2. Segunda item
+3. Terceiro item
+```
+```
+Lista não ordenada
+- Primeiro item
+- Segunda item
+- Terceiro item
+```
+#### Saída renderezada:
+1. Primeiro item
+2. Segunda item
+3. Terceiro item
 
+- Primeiro item
+- Segunda item
+- Terceiro item
 
-<table class="table table-bordered">
-  <thead class="thead-light">
-    <tr>
-        <th>Markdown</th>
-        <th>Saída renderizada</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-        <td>
-            <b>Lista ordenada</b><br>
-            1. Primeiro item<br>
-            2. Segunda item<br>
-            3. Terceiro item<br>
-        </td>
-        <td>
-            <ol>
-              <li>Primeiro item</li>
-              <li>Segunda item</li>
-              <li>Terceiro item</li>
-            </ol>
-        </td>
-    </tr>
-    <tr>
-        <td>
-            <b>Lista não ordenada</b><br>
-            - Primeiro item<br>
-            - Segunda item<br>
-            - Terceiro item<br>
-        </td>
-        <td>
-            <ul>
-              <li>Primeiro item</li>
-              <li>Segunda item</li>
-              <li>Terceiro item</li>
-            </ul>
-        </td>
-    </tr>
-    <tr>
-        <td>`Exemplo de código básico`</td>
-        <td><code class="language-plaintext highlighter-rouge">Exemplo de código básico</code></td>
-    </tr>
-    <tr>
-        <td><b>Linha horizontal</b><br>---</td>
-        <td><hr></td>
-    </tr>
-    <tr>
-        <td><b>Link / Ligação</b><br>[title](https://www.example.com)</td>
-        <td><a href="https://www.example.com">title</a></td>
-    </tr>
-    <tr>
-        <td><b>Imagem</b><br>![alt text](image.jpg)</td>
-        <td><img src="https://pipz.com/static/images/blog/eddie.png" alt="Eddie"></td>
-    </tr>
-  </tbody>
-</table>
+<br><br>
 
+### Código (Code Highlight) 
+```
+`Exemplo de código básico`
 
-## Exemplo de formatos de código:
+~~~python
+s = "Python syntax highlighting"
+print s
+~~~
 
 ~~~javascript
 console.log('Hello World!')
@@ -173,51 +144,105 @@ console.log('Hello World!')
 ~~~html
 <h1>Hello World!</h1>
 ~~~
+```
+#### Saída renderizada:
+`Exemplo de código básico`
 
+```python
+s = "Python syntax highlighting"
+print s
+```
 
+```javascript
+console.log('Hello World!')
+```
 
+```php
+<?php echo "Hello World!"; ?>
+```
+
+```html
+<h1>Hello World!</h1>
+```
+
+<br><br>
+
+### Linha horizontal
+```
+---
+```
+#### Saída renderizada:
 ---
 
-## Extended Syntax
+<br><br>
 
-### Table
-
-| Syntax | Description |
-| ----------- | ----------- |
-| Header | Title |
-| Paragraph | Text |
-
-### Fenced Code Block
-
+### Link / Ligação
 ```
-{
-  "firstName": "John",
-  "lastName": "Smith",
-  "age": 25
-}
+[title](https://www.example.com)
 ```
+#### Saída renderizada:
+[title](https://www.example.com)
 
-### Footnote
+<br><br>
 
-Here's a sentence with a footnote. [^1]
+### Imagem
+```
+![alt text](image.jpg)
+```
+#### Saída renderizada:
+![Eddie](https://pipz.com/static/images/blog/eddie.png)
 
-[^1]: This is the footnote.
+<br><br>
 
-### Heading ID
+### Tabela
+```
+Exemplo   | Valor do exemplo
+--------- | ------
+Exemplo 1 | R$ 10
+Exemplo 2 | R$ 8
+Exemplo 3 | R$ 7
+Exemplo 4 | R$ 8
 
-### My Great Heading {#custom-id}
+Alinhado a esquerda | Centralizado | Alinhado a direita
+:--------- | :------: | -------:
+Valor | Valor | Valor
+```
+#### Saída renderizada:
+Exemplo   | Valor do exemplo
+--------- | ------
+Exemplo 1 | R$ 10
+Exemplo 2 | R$ 8
+Exemplo 3 | R$ 7
+Exemplo 4 | R$ 8
 
-### Definition List
+Alinhado a esquerda | Centralizado | Alinhado a direita
+:--------- | :------: | -------:
+Valor | Valor | Valor
 
-term
-: definition
+<br><br>
 
-### Strikethrough
+### Notas de rodapé
+```
+Aqui está uma nota de rodapé simples, [^1] e outra mais longa. [^segunda]
 
-~~The world is flat.~~
+[^1]: Esta é a primeira nota de rodapé.
+[^segunda]: Adicione quantas frases, paragrafos ou `elementos` **markdown** desejar.
+```
+#### Saída renderizada:
+Aqui está uma nota de rodapé simples, [^1] e outra mais longa. [^segunda]
 
-### Task List
+[^1]: Esta é a primeira nota de rodapé.
+[^segunda]: Adicione quantas frases, paragrafos ou `elementos` **markdown** desejar.
 
+<br><br>
+
+### Listas de tarefas
+```
+- [x] Write the press release
+- [ ] Update the website
+- [ ] Contact the media
+```
+#### Saída renderizada:
 - [x] Write the press release
 - [ ] Update the website
 - [ ] Contact the media

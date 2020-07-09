@@ -42,14 +42,3 @@ fase de testes.
 [gimp]: https://www.gimp.org/
 [iterm2]: https://www.iterm2.com/
 
-Teste de apresentação de código:
-{% highlight php %}
-switch (true) {
-    case $var:
-        // code...
-        break;
-    default:
-        // code...
-        break;
-}
-{% endhighlight %}
